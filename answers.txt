@@ -1,1 +1,7 @@
-git merge incorporates the changes from another branch into the current branch in a way such that all files that are unmodified since the latest commit in the current branch are replaced by the modified or new files in the branch that was merged from. Conversely, a rebase forces the branch to the configuration of the specified commit even if it overwrites other commits or changes that don't exist on the branch or commit that was rebased from.
+What is the difference between a merge and a rebase?
+
+Git merge incorporates the changes from another branch into the current branch in a way such that all 
+files that are unmodified since the latest commit in the current branch are replaced by the modified 
+or new files in the branch that was merged from. Conversely, a rebase forces the branch to the configuration 
+of the specified commit even if it overwrites other commits or changes that don't exist on the branch or 
+commit that was rebased from.
