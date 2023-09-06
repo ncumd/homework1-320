@@ -1,1 +1,7 @@
-git merge incorporates the changes from another branch into the current branch in a way such that all files that are unmodified since the latest commit in the current branch are replaced by the modified or new files in the branch that was merged from. Conversely, a rebase forces the branch to the configuration of the specified commit even if it overwrites other commits or changes that don't exist on the branch or commit that was rebased from.
+What is a remote repository?
+
+A remote repository is a network git server (usually hosted on the cloud) that stores a
+version of your and your colleagues local repositories. Changes are synced to this remote
+repository via the git push command (which puts a local commit onto the remote) and is merged
+from using the git pull command (which merges the commit from the remote onto the local
+version of the git repository)
